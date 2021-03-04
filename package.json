@@ -1,0 +1,15 @@
+{
+  "name": "natours-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Landing page for natours",
+  "repository": "git@github.com:dalazaca/Natours-Project.git",
+  "author": "Diego Zucchet <diezucchet@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
